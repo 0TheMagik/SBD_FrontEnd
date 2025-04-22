@@ -1,6 +1,6 @@
 import React from 'react';
 import PraktikumCard from './PraktikumCard';
-import '../styles/PraktikumList.css';
+import '../Styles/PraktikumList.css';
 
 function PraktikumList({ praktikumData }) {
 return (

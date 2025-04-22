@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/PraktikumCard.css';
+import '../Styles/PraktikumCard.css';  // Updated to match correct case 'Styles'
 
 function PraktikumCard({ title, description, image }) {
 return (
