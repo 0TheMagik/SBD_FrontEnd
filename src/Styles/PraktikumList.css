@@ -1,0 +1,19 @@
+.praktikum-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 0 1rem;
+    width: 100%;
+    max-width: 1800px; 
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .praktikum-list {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

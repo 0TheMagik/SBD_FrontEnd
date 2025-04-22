@@ -1,0 +1,63 @@
+.praktikum-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  min-width: 600px; 
+  max-width: 850px; 
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.praktikum-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img {
+  height: 180px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  aspect-ratio: 21/9;
+}
+
+.card-img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; 
+}
+
+.card-content {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #1e3a8a;
+}
+
+.card-description {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.card-button {
+  display: inline-block;
+  background-color: #1e3a8a;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.card-button:hover {
+  background-color: #1e4db8;
+}
